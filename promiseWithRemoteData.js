@@ -15,3 +15,7 @@ const spacePeople = () => {
         request.send();
     });
 };
+
+spacePeople().then((spaceData) =>
+    console.log(spaceData)
+)
